@@ -42,7 +42,7 @@ public class Main {
         properties.put(Environment.URL, "jdbc:p6spy:mysql://localhost:3306/movie");
         properties.put(Environment.HBM2DDL_AUTO, "validate");
         properties.put(Environment.USER, "root");
-        properties.put(Environment.PASS, "Koejfarm1");
+        properties.put(Environment.PASS, "root");
         properties.put(Environment.CURRENT_SESSION_CONTEXT_CLASS, "thread");
 
         sessionFactory = new Configuration()
